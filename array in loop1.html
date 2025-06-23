@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array in loop </title>
+</head>
+<body>
+    <h3>For Loop</h3>
+    <script>
+        var student =["swati","sangeeta",45,57,"ashish"];
+        let ln=student.length
+        document.write("length",+ln+"<br>");
+        for (let i=0; i<ln;i++)
+        document.write(student[i],"<br>")
+    </script>
+    <h3>While Loop</h3>
+    <script>
+         var student1 =["swati","sangeeta",45,57,"ashish"];
+        document.write("while length",+ln+"<br>");
+        let k=0
+        while (k<ln)
+    {document.write(k+"="+student1[k]+"<br>")
+        k++
+    }
+    </script>
+    <h3>Do While Loop</h3>
+    <script>
+        var student2 =["swati","sangeeta",45,57,"ashish"];
+        document.write("while length",+ln+"<br>");
+        let p=0
+        do {
+            document.write(student2[p],'<br>')
+            p++
+        }
+        while (p<student2.length);
+
+    </script>
+    
+</body>
+</html>

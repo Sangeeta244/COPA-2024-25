@@ -1,0 +1,69 @@
+<html>
+    <head><title>Arrays</title></head>
+    <body>
+<h1>Array</h1>
+<script>
+var good=["sangeeta","swati","shama","kumkum"];
+document.write(good[1])
+</script>
+<h1>Meathods of array</h1>
+<h2>Lenght</h2>
+<script>
+    document.write(good.length);
+</script>
+<h2>Push</h2>
+<script>
+    good.push("neha");
+    document.write(good);
+</script>
+<h2>Unshift</h2>
+<script>
+    good.unshift("divya")
+    document.write(good);
+</script>
+<h2>Pop</h2>
+<script>
+    good.pop()
+    document.write(good);
+</script>
+<h2>Shift</h2>
+<script>
+good.shift()
+document.write(good);
+</script>
+<h2>Splice</h2>
+<script>
+    good.splice(2)
+    document.write(good);
+</script>
+<h2>Indexof</h2>
+<script>
+    let bad=good.indexOf('sangeeta');
+    document.write(bad);
+</script>
+<h2>Split</h2>
+<script>
+    let b="Harmony empowering tomorrow's innovetors"
+    let c=b.split(" ");
+    document.write(c)
+</script>
+<h2>Join</h2>
+<script>
+    var d=good.join("+");
+    document.write(d);
+</script>
+<h2>Concat</h2>
+<script>
+    document.write(good, '<br>',b);
+</script>
+<h1>Multidimension Array</h1>
+<script>
+    let e=[
+        ["sangeeta","swati","shama","kumkum"],
+        ["Harmony", "empowering", "tomorrow's", "innovetors"],
+        ["10","20","30","40"],
+    ]
+    document.write(e[1][0]);
+</script>
+    </body>
+</html>

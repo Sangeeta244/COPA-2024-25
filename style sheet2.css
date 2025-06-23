@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: aqua;
+    color:black;
+    padding:15px 0px 20px 40px;
+    width: 50%;
+}
+h2#header-title{
+    padding: 10px 0px;
+}
+div#content{
+    padding: 15px 0px opx 45px;
+}
+div#content >h4{
+    border-bottom: 5px solid gray;
+    padding: 0px 20px 10px 5px;
+    display: inline-block;
+    width: 50px;
+}
+li.list-item{
+    border-bottom: 1px solid rebeccapurple;
+    padding: 10px 0px;
+    width: 50%;
+}
+form{
+    padding-top:20px ;
+}
+form >input,button{
+    padding: 5px;
+}

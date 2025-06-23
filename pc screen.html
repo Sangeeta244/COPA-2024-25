@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Desktop height/width</h2>
+   <p id="pc"></p>
+   <p id="pc1"></p>
+   <script>
+    document.getElementById("pc").innerHTML =
+    "Screen width is " + screen.width;
+    document.getElementById("pc1").innerHTML =
+    "Screen height is " + screen.height;
+
+   </script> 
+
+   <h2>Window height/width</h2>
+   <p id="pc2"></p>
+   <script>
+    document.getElementById("pc2").innerHTML =
+    "browser inner window width " + window.innerWidth + "px<br>" +
+    "browser inner window height " + window.innerHeight + "px";
+   </script>
+</body>
+</html>
